@@ -1,0 +1,83 @@
+body {
+    background-color: yellow;
+}
+
+header ul{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:10px;
+    background-color: blue;
+}
+
+header ul li a {
+    color: white;
+    font-size: 50px;
+    font-family: "Rubik Scribble", system-ui;
+    font-weight: 1000;
+    font-style: normal;
+    gap: 5rem;
+}
+
+header ul li a:hover {
+    color: blue;
+    background-color: white;
+}
+
+#meio {
+    display:flex;
+    justify-content: space-around;
+    background-color: green;
+    height: 700px;
+    gap: 5rem;
+}
+
+.img-meio {
+    width:200px;
+    padding: 5px 10px;
+    border-radius:30px;
+}
+
+#img1 {
+    width: 550px;
+    height: 350px;
+    align-self: center;
+}
+
+#img2 {
+    width: 700px;
+    height: 200px;
+    align-self: center;
+}
+
+#img3 {
+    width: 380px;
+    height: 380px;
+    align-self: center;
+}
+
+footer > ul {
+    display: grid;
+    font-family: "Rubik Scribble", system-ui;
+    font-weight: 1000;
+    font-style: normal;
+    color: white;
+    font-size: 50px;
+    color: blue;
+    grid-template-rows: repeat(2,1fr);
+}
+
+footer ul li a:hover {
+    color: blue;
+    background-color: white;
+}
+
+#dev {
+    text-align: center;
+}
+
+#Canais {
+    display: flex;
+    justify-content: space-around;
+    gap: 7rem;
+}
